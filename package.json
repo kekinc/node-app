@@ -1,0 +1,28 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "Sample node application to build jenkins pipeline",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/.bin/mocha  ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kekinc/node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kekinc/node-app/issues"
+  },
+  "homepage": "https://github.com/kekinc/node-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.0",
+    "supertest": "^4.0.2"
+  }
+}
