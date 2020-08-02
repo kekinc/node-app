@@ -3,10 +3,10 @@ const path = require('path');
 const app = express();
 const ROOTDIR = __dirname;
 
-app.use(express.static(ROOTDIR));
+// app.use(express.static(ROOTDIR));
 
 app.get('/',(req,res)=>{
-    res.sendFile('index.html');
+    res.send('Hello! This is massive change.');
 });
 
 app.listen(8000,()=>{
